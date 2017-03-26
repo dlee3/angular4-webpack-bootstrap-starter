@@ -1,0 +1,11 @@
+/*
+ * This is the file that webpack looks at in order to create css.
+ */
+
+@import "variables";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "~font-awesome/scss/font-awesome";
+
+@import "style";
