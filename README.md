@@ -338,20 +338,6 @@ import * as _ from 'lodash';
 * "There are multiple modules with names that only differ in casing"
  * change `c:\[path to angular2-webpack-starter]` to `C:\[path to angular2-webpack-starter]` see [926#issuecomment-245223547](https://github.com/AngularClass/angular2-webpack-starter/issues/926#issuecomment-245223547)
 
-# Support, Questions, or Feedback
-> Contact us anytime for anything about this repo or Angular 2
-
-* [Chat: AngularClass.slack](http://angularclass.com/member-join/)
-* [Twitter: @AngularClass](https://twitter.com/AngularClass)
-* [Gitter: AngularClass/angular2-webpack-starter](https://gitter.im/angularclass/angular2-webpack-starter)
-
-<br>
-
-[![AngularClass](https://cloud.githubusercontent.com/assets/1016365/9863770/cb0620fc-5af7-11e5-89df-d4b0b2cdfc43.png  "Angular Class")](https://angularclass.com)
-##[AngularClass](https://angularclass.com)
-> Learn AngularJS, Angular 2, and Modern Web Development from the best.
-> Looking for corporate Angular training, want to host us, or Angular consulting? patrick@angularclass.com
-
 ___
 
 # License
