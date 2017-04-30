@@ -1,6 +1,6 @@
 
 
-# Angular2 Webpack Bootstrap Starter
+# Angular4 Webpack Bootstrap Starter
 
 #### This is an altered version of the [Angular2 Webpack Starter](https://github.com/AngularClass/angular2-webpack-starter) by AngularClass. The following are what have been changed from the original:
 * Bootstrap 4 and FontAwesome have been added.
@@ -10,23 +10,23 @@
 * The app currently runs but is failing some tests, this will be resolved in a future release.
 ___
 
-> An Angular 2 starter kit featuring [Angular 2](https://angular.io) and [Angular 4](https://github.com/angular/angular/tree/4.0.0-beta.0) ([Ahead of Time Compile](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html), [Router](https://angular.io/docs/ts/latest/guide/router.html), [Forms](https://angular.io/docs/ts/latest/guide/forms.html),
+> An Angular 4 starter kit featuring [Angular 4](https://angular.io) and [Angular 4](https://github.com/angular/angular/tree/4.0.0-beta.0) ([Ahead of Time Compile](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html), [Router](https://angular.io/docs/ts/latest/guide/router.html), [Forms](https://angular.io/docs/ts/latest/guide/forms.html),
 [Http](https://angular.io/docs/ts/latest/guide/server-communication.html),
 [Services](https://gist.github.com/gdi2290/634101fec1671ee12b3e#_follow_@AngularClass_on_twitter),
 [Tests](https://angular.io/docs/ts/latest/guide/testing.html), [E2E](https://angular.github.io/protractor/#/faq#what-s-the-difference-between-karma-and-protractor-when-do-i-use-which-)), [Karma](https://karma-runner.github.io/), [Protractor](https://angular.github.io/protractor/), [Jasmine](https://github.com/jasmine/jasmine), [Istanbul](https://github.com/gotwarlost/istanbul), [TypeScript](http://www.typescriptlang.org/), [@types](https://www.npmjs.com/~types), [TsLint](http://palantir.github.io/tslint/), [Codelyzer](https://github.com/mgechev/codelyzer), [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html), [Bootstrap 4](https://v4-alpha.getbootstrap.com/), [Yarn](https://yarnpkg.com), and [Webpack 2](http://webpack.github.io/).
 
 
-This seed repo serves as an Angular 2 starter for anyone looking to get up and running with Angular 2 and TypeScript fast. Using a [Webpack 2](http://webpack.github.io/) for building our files and assisting with boilerplate. We're also using Protractor for our end-to-end story and Karma for our unit tests.
-* Best practices in file and application organization for Angular 2.
+This seed repo serves as an Angular 4 starter for anyone looking to get up and running with Angular 4 and TypeScript fast. Using a [Webpack 2](http://webpack.github.io/) for building our files and assisting with boilerplate. We're also using Protractor for our end-to-end story and Karma for our unit tests.
+* Best practices in file and application organization for Angular 4.
 * Ready to go build system using Webpack for working with TypeScript.
-* Angular 2 examples that are ready to go when experimenting with Angular 2.
-* A great Angular 2 seed repo for anyone who wants to start their project.
+* Angular 4 examples that are ready to go when experimenting with Angular 4.
+* A great Angular 4 seed repo for anyone who wants to start their project.
 * Ahead of Time (AoT) compile for rapid page loads of your production builds.
 * Tree shaking to automatically remove unused code from your production bundle.
 * [Webpack DLLs](https://robertknight.github.io/posts/webpack-dll-plugins/) dramatically speed your development builds.
-* Testing Angular 2 code with Jasmine and Karma.
+* Testing Angular 4 code with Jasmine and Karma.
 * Coverage with Istanbul and Karma
-* End-to-end Angular 2 code using Protractor.
+* End-to-end Angular 4 code using Protractor.
 * Type manager with @types
 * Hot Module Replacement with Webpack and [@angularclass/hmr](https://github.com/angularclass/angular2-hmr) and [@angularclass/hmr-loader](https://github.com/angularclass/angular2-hmr-loader)
 * Material Design with [angular/material2](https://github.com/angular/material2)
@@ -76,10 +76,10 @@ go to [http://0.0.0.0:3000](http://0.0.0.0:3000) or [http://localhost:3000](http
 ## File Structure
 We use the component approach in our starter. This is the new standard for developing Angular apps and a great way to ensure maintainable code by encapsulation of our behavior logic. A component is basically a self contained app usually in a single file or a folder with each concern as a file: style, template, specs, e2e, and component class. Here's how it looks:
 ```
-angular2-webpack-starter/
+angular4-webpack-starter/
  ├──config/                        * our configuration
  |   ├──helpers.js                 * helper functions for our configuration files
- |   ├──spec-bundle.js             * ignore this magic that sets up our angular 2 testing environment
+ |   ├──spec-bundle.js             * ignore this magic that sets up our angular 4 testing environment
  |   ├──karma.conf.js              * karma config for our unit tests
  |   ├──protractor.conf.js         * protractor config for our end-to-end tests
  │   ├──webpack.dev.js             * our development webpack config
@@ -296,7 +296,7 @@ import * as _ from 'lodash';
 
 # Frequently asked questions
 * What's the current browser support for Angular 2 Beta?
-  * Please view the updated list of [browser support for Angular 2](https://github.com/angularclass/awesome-angular2#current-browser-support-for-angular-2)
+  * Please view the updated list of [browser support for Angular 4](https://github.com/angularclass/awesome-angular2#current-browser-support-for-angular-2)
 * Why is my service, aka provider, is not injecting parameter correctly?
   * Please use `@Injectable()` for your service for typescript to correctly attach the metadata (this is a TypeScript problem)
 * How do I run protractor with node 0.12.x?
@@ -313,7 +313,7 @@ import * as _ from 'lodash';
  * The VS Code chrome debug extension support can be done via `launch.json` see issue [#144](https://github.com/AngularClass/angular2-webpack-starter/issues/144#issuecomment-164063790)
 * How do I make the repo work in a virtual machine?
  * You need to use `0.0.0.0` so revert these changes [#205](https://github.com/AngularClass/angular2-webpack-starter/pull/205/files)
-* What are the naming conventions for Angular 2?
+* What are the naming conventions for Angular 4?
  * please see issue [#185](https://github.com/AngularClass/angular2-webpack-starter/issues/185) and PR [196](https://github.com/AngularClass/angular2-webpack-starter/pull/196)
 * How do I include bootstrap or jQuery?
  * please see issue [#215](https://github.com/AngularClass/angular2-webpack-starter/issues/215) and [#214](https://github.com/AngularClass/angular2-webpack-starter/issues/214#event-511768416)
@@ -324,12 +324,12 @@ import * as _ from 'lodash';
 * How do I turn on Hot Module Replacement
  * Run `npm run server:dev:hmr`
 * `RangeError: Maximum call stack size exceeded`
- * This is a problem with minifying Angular 2 and it's recent JIT templates. If you set `mangle` to `false` then you should be good.
+ * This is a problem with minifying Angular 4 and it's recent JIT templates. If you set `mangle` to `false` then you should be good.
 * Why is the size of my app larger in development?
  * We are using inline source-maps and hot module replacement which will increase the bundle size.
 * If you're in China
  * check out https://github.com/cnpm/cnpm
-* If you're looking to add Angular 2 Material Design
+* If you're looking to add Angular 4 Material Design
  * check out the [material2](https://github.com/AngularClass/angular2-webpack-starter/tree/material2) branch
 * node-pre-gyp ERR in npm install (Windows)
  * install Python x86 version between 2.5 and 3.0 on windows see issue [#626](https://github.com/AngularClass/angular2-webpack-starter/issues/626)
